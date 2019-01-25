@@ -1,5 +1,5 @@
-# Design Bounty
-Design Bounty is distributed application (Dapp built on the Ethereum Blockchain) that allows clients who need designs to post design jobs as bounties, and allows designers to hunt bounties and recieve payouts when their job is accepted by the client who posted the bounty. The functionalities of this app include:
+# Bounty
+Bounty is distributed application (DApp built on the Ethereum Blockchain) that allows clients who need designs to post design jobs as bounties, and allows designers to hunt bounties and recieve payouts when their job is accepted by the client who posted the bounty. The functionalities of this app include:
 
   - Post bounty
   - Payout accepted submissions with Ether
@@ -10,9 +10,9 @@ Design Bounty is distributed application (Dapp built on the Ethereum Blockchain)
   - Manage bounty submissions from dashboard
   - Add poster and bounty hunter details
   - Emergency Stop
-  
 
-### The tools  used for this project include: 
+
+### The tools  used for this project include:
   - Truffle Framework
   - React Library
   - Drizzle Library
@@ -20,10 +20,10 @@ Design Bounty is distributed application (Dapp built on the Ethereum Blockchain)
   - Solidity
   - Openzeppelin Ethpm Library
   - Ipfs (Inter Planetary File System)
-  
+
 ### Installation
 
-Design Bounty Dapp requires the following apps to run successfully:
+Bounty Dapp requires the following apps to run successfully:
   - [Node.js](https://nodejs.org/) v8+ to run.
   - ganage-cli
   - Metamask
@@ -32,25 +32,25 @@ Clone the repo and install the dependencies and start the server. Ensure that yo
 
 To compile the contracts and migrate them to the blockchain, run the following commands at your terminal where you cloned the repo
 ```sh
-$ cd DesignBounty
-$ npm install 
+$ cd Bounty
+$ npm install
 $ truffle compile
 $ truffle migrate
 $ truffle test
 ```
 To start the sever for the UI, run the following commands
 ```sh
-$ cd DesignBounty
+$ cd Bounty
 $ npm run  start
 ```
 
 Navigate to the url specified at the terminal in yoru browser.
 
-# Using the Design Bounty Dapp
+# Using the Bounty DApp
 ```NOTE: For some reason, Metamask does not confirm transactions and this could lead to failed transactions. To avoid failed transaction on Metamask, uninstall and install your MetaMask extension (Chrome), and import an account from the seed only after running the migrations```
-  
+
   - To post a bounty
-       -  click on the post a bounty button 
+       -  click on the post a bounty button
        -  choose pay with Ether (As pay with Token in still in development phase)
        -  on the pages that follow, enter in your bounty details
        -  go through the steps till you see a confirmation page
@@ -71,25 +71,19 @@ Navigate to the url specified at the terminal in yoru browser.
        - in the list of submission for your bounties, click on the button to                 accept or reject a bounty.
        - confirm your transactions (2 confirmations) with Metamask
 
-### Other ReadMe Documents 
+### Other ReadMe Documents
 
-Kindly find other Readme files discussion the 
+Kindly find other Readme files discussion the
 
 | Title | README |
 | ------ | ------ |
-| Design Patterns | [design_pattern_desicions.md](https://github.com/mayorcoded/DesignBounty/blob/master/design_pattern_desicions.md) |
-| Avoiding Common Attacks | [avoiding_common_attacks.md](https://github.com/mayorcoded/DesignBounty/blob/master/avoiding_common_attacks.md)|
+| Design Patterns | [design_pattern_desicions.md](https://github.com/sirphemmiey/Bounty/blob/master/design_pattern_desicions.md) |
+| Avoiding Common Attacks | [avoiding_common_attacks.md](https://github.com/sirphemmiey/Bounty/blob/master/avoiding_common_attacks.md)|
 
 
 ### Development
 Want to contribute? Great!
 Submit a pull request and feel free to ask questions if you have some.
-### Todos
-
- - Paying accepted submissions with custom ERC-20 Token
- - Allow editing of bounties and submissions
- - Killing bounties...and a whole lot more.
- - Uploading sample images for the bounty 
 
 License
 ----
@@ -97,6 +91,6 @@ License
 MIT
 
 
-**Free Software, Hell Yeah!**
+**Free Software, Yo!**
 
 
